@@ -1,0 +1,14 @@
+.o{
+  margin: 0 200px;
+background-color: floralwhite;
+  width: 1000px;
+  height: 800px;
+  padding: 40px;
+}
+.b{
+  margin-left: 80px;
+  height: 30px;
+  width: 100px;
+  background-color: cornflowerblue;
+
+}

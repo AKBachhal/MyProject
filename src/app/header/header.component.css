@@ -1,0 +1,25 @@
+.c{
+
+  height: 100px;
+  width: auto;
+  background-color: rgb(228, 226, 226);
+  color: black;
+  border-collapse: collapse;
+}
+.m{margin: 0px;}
+
+.links{
+
+display: flex;
+}
+
+.links> *{
+  /* flex: 1; */
+  align-self: center;
+margin: 0 1em;
+  }
+
+  a{
+    font-size: 18px;
+    text-decoration: none;
+  }

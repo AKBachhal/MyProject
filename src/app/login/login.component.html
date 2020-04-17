@@ -1,0 +1,17 @@
+<div class="centerbox">
+<h1 style="padding-top: 60px;">Please enter your credentials</h1>
+  UserName:
+  <input placeholder="Enter UserName" class="in" [(ngModel)]="usrn"/><br/>
+  Password:
+  <input placeholder="Password" type="password" class="in" [(ngModel)]="psw"/><br/>
+
+  <div>
+    <!-- <a (click)="auth()" >login </a> -->
+    <button (click)="auth()" class="c">login</button>
+
+  </div>
+  {{eror}}
+  <a>Create your Account</a>
+</div>
+
+

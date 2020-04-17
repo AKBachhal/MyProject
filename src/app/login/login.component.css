@@ -1,0 +1,32 @@
+.centerbox{
+
+  width: 600px;
+  height: 600px;
+  background: gray;
+  text-align: center;
+  margin: 100px;
+  margin-left: 500px;
+}
+.in{
+height: 30px;
+width: 300px;
+margin: 10px;
+
+}
+.b{
+  line-height: 40px;
+  width: 250px;
+  margin: auto;
+
+background-color: rgb(30, 67, 126);
+text-decoration-color: dimgray;
+
+}
+.c{
+
+  height: 30px;
+  width: 200px;
+  margin: 10px;
+  background-color: rgb(30, 67, 126);
+
+}

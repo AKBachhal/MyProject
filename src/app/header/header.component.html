@@ -1,0 +1,26 @@
+<header>
+<div class="c m" style="display: flex;">
+
+  <div style="flex: 2">
+<img src="assets/images.png" style="height: 100px; padding: 0px 30px;"/>
+  </div>
+
+  <div style="flex: 4; " class="links">
+    <a routerLink="/Home" routerLinkActive="Active" >Home</a>
+    <a routerLink="/aboutus" routerLinkActive="Active" >About Us</a>
+    <a routerLink="/galery" routerLinkActive="Active" >Gallery</a>
+    <a routerLink="/product" routerLinkActive="Active" >Products</a>
+    <a routerLink="/contactus" routerLinkActive="Active" >Contact us</a>
+    <!-- <a routerLink="/**" routerLinkActive="Active" >pagenotfound</a> -->
+  </div>
+
+  <div style="flex: 1;display: flex;" class="links">
+
+<a routerLink="/login" routerLinkActive="Active" *ngIf="!b" >SignIn</a>
+<div *ngIf="b"> welcome Abc &nbsp;&nbsp;&nbsp;&nbsp;
+<a routerLink="/login" routerLinkActive="Active"   (click)="log()">logout</a></div>
+  </div>
+
+</div>
+</header>
+<div><router-outlet></router-outlet></div>
